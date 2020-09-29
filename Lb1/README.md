@@ -2,7 +2,7 @@
 Лабораторная работа №1 по дисциплине "Интернет технологии"
 
 
-Как выглядит HTML-страничка можно посмотреть [здесь](https://user576g.github.io/Itech_lb1/) (GitHub Pages).
+Как выглядит HTML-страничка можно посмотреть [здесь](https://user576g.github.io/Itech_Labs/Lb1/index.html) (GitHub Pages).
 
 ## Задание
 
