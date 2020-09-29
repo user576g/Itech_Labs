@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laba 2</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        h2 {
+            color:#0f0;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+   <!-- inline-описание (используется атрибут style)-->
+    <h1 style="color:red;text-align:center;">
+        Лабораторная робота №2
+    </h1>
+    
+    <!-- с помощью контейнера <style> в секции заголовка-->
+    <h2>Акименко Богдана</h2>
+    
+    <!-- c помощью стилевой таблици, расположенной во внешнем файле -->
+    <h3>КИУКИ-18-4</h3> 
+    <h4>Вариант №1</h4>
+    
+    <p class="cl1">Пример использования селектора класса</p>
+    <div id="id1">Пример использования идентификатора для указания елемента, который надо стилизировать</div>
+    
+    <div class="relative">
+        Этот div элемент имеет свойство position: relative. Если бы у него было абсолютное позициониорование, то он бы был почти в начале страницы.
+        <div class="absolute">Этот div элемент имеет свойство position: absolute. Если бы у него было бы относительное позиционирование, то он был бы ниже.</div>
+    </div>
+    
+    <div class="green-border">
+        <img class="right" src="pineapple.jpg" alt="pineapple" width="150" height="150">
+        Использование плавающей модели (свойство float: right).<br>
+        Свойство float определяет, по какой стороне будет выравниваться элемент,
+при этом остальные элементы будут обтекать его с других сторон.<br>
+        Свойство overflow управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров.<br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptatum suscipit eum, sapiente fugiat porro, accusantium quaerat eaque distinctio eveniet ullam tenetur delectus provident architecto quos, dolore exercitationem. Ea, natus. <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, labore eius, eaque fugit ab error quis. Corporis nulla, doloribus illum error eveniet at quas vero sed quisquam unde, quasi a?<br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur nobis voluptate maxime, ipsam quibusdam in ullam quo vel, corporis tempora, optio, natus. Est accusamus officia sunt dolorum voluptas excepturi deserunt.<br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut nisi, omnis, necessitatibus ipsam qui excepturi deserunt. Ipsa veniam ab nostrum quibusdam blanditiis modi voluptates cum molestiae, culpa ullam dolores dicta.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis numquam est tenetur, blanditiis, pariatur omnis dolorum sint fugiat maxime ipsam provident iste eveniet possimus, laudantium quis ad suscipit iure quia
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore culpa quisquam quis ut dolore dignissimos pariatur et temporibus a ratione perspiciatis amet odio quo, minima dicta sequi illo fuga quidem!
+    </div>
+    
+    <div class="green-border">
+        На страницу добавлены переключатели (radio), оформление которых зависит от их состояния.<br>
+        <div style="padding-left: 15px">
+        <label class="container">
+           <input type="radio" name="sth">
+            <span class="checkmark"></span>
+            Item_1    
+        </label>
+        <label class="container">
+           <input type="radio" name="sth">
+            <span class="checkmark"></span>
+            Item_2    
+        </label>
+        <label class="container">
+           <input type="radio" name="sth">
+            <span class="checkmark"></span>
+            Item_3    
+        </label>
+        </div>
+    </div>
+    
+    <div class="green-border">
+        Добавить на страницу контейнер с элементами, размещенными согласно рисунку. Использовать Flexbox, обратить внимание на порядок элементов.
+        <div class="flex-container">
+            <div style="order: 3; background: green;">Я ПЕРВЫЙ</div>
+            <div style="order: 4">Я ВТОРОЙ</div>
+            <div>Я ТРЕТИЙ</div>
+            <div style="background: red;">Я ЧЕТВЕРТЫЙ</div>
+        </div>
+           
+   
+    </div>
+</body>
+</html>

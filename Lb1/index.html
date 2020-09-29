@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Akimenko Lb_1</title>
+    <link href="" charse
+</head>
+
+<body>
+	<!--		Табличная верстка	-->
+	<!-- border="1" Покажет границы разделов страницы.
+	 --> 
+	<table border="0" style="width:100%;" >
+		<tr>
+			<td colspan="3" style="text-align:center">
+				<h1>Лабораторная работа №1</h1>
+				<h2>Акименко Богдана</h2>
+				<h3>КИУКИ-18-4</h3>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">
+				Меню:<br>
+				<a href="#t1">Первое задание</href><br>
+				<a href="#t2">Второе задание</a><br>
+				<a href="#t3">Третье задание</a><br>
+				<a href="#t4">Четвертое задание</a><br>
+				<a href="#t5">Пятое задание</a><br>
+			</td>
+			<td style="width:60%">
+				
+				<h4 id="t1">Оформленный текст</h4>
+				<p id="p1">
+					Для любого натурального числа 
+					<b>n>2</b>
+					уравнение 
+				<i>а<sup>n</sup>+b<sup>n</sup>=c<sup>n</sup></i>
+					<strong>не имеет решений</strong> при целых
+					ненулевых числах а,&nbspb,&nbspc.
+				</p>
+				<br>
+				
+				<h4 id="t2">Список (факультетов и кафедр)</h4>
+				 <ul>
+				 	<li>
+				 		КИУ
+				 		<ol type="A" reversed="reversed">
+				 			<li>ЭВМ</li>
+				 			<li>АПВТ</li>
+				 			<li>БИТ</li>
+				 			<li>КИТС</li>
+				 			<li>Кафедра философии</li>
+				 		</ol>
+				 	</li>
+				 	<li>
+				 		КН
+				 		<ul>
+				 			<li>ИУС</li>
+				 			<li>ИИ</li>	
+				 			<li>СТ</li>	
+				 			<li>ПИ</li>	
+				 			<li>МСТ</li>	
+				 		</ul>
+				 	</li>
+				 	<li>
+				 		АКТ
+				 		<ul>
+				 			<li>КИТАМ</li>
+				 			<li>ПЕЕА</li>
+				 			<li>Кафедра физики</li>
+				 			<li>ОП</li>
+				 		</ul>
+				 	</li>
+				 </ul>
+
+				 <h4 id="t3">
+				 	Таблица с данными курса валют.
+				 </h4>
+				 <table border="1" style="text-align: center;
+				 					border-collapse: collapse;">
+					<caption>
+						Курс гривны относительно других валют.
+					</caption>				 				
+				 	<tr>
+				 		<th>Код символьный</th>
+				 		<th>Количество</th>
+				 		<th>Название валюты</th>
+				 		<th>Курс</th>
+				 	</tr>
+				 	<tr>
+				 		<td>USD</td>
+				 		<td>1</td>
+				 		<td>Долар США</td>
+				 		<td>27.690800</td>
+				 	</tr>
+				 	<tr>
+				 		<td>EUR</td>
+				 		<td>1</td>
+				 		<td>Евро</td>
+				 		<td>32.731900</td>
+				 	</tr>
+				 	<tr>
+				 		<td>RUB</td>
+				 		<td>1</td>
+				 		<td>Русский рубль</td>
+				 		<td>0.368300</td>
+				 	</tr>
+				 </table>
+				 <br>
+
+				 <h4 id="t4">Форма голосования</h4>
+				 <form>
+				 	<!-- The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together. -->
+				 	<label for="cands">Выберите президента:</label>
+				 	<select id="cands" name="cands">
+				 		<option value="cid_1">Зеленский</option>
+				 		<option value="cid_2">Порошенко</option>
+				 		<option value="cid_3">Тимошенко</option>
+				 		<option value="cid_4">Вилкул</option>
+				 	</select>
+				 	<br>
+				 	<input type="submit" value="Проголосовать!">
+				 </form>
+				 <br>
+
+				 <h4 id="t5">Ссылки и изображения</h4>
+				 Содержание страницы, состоящее из относительных гиперссылок-якорей к ее подразделам:<br>
+				 <a href="#t1">Первое задание</href><br>
+				 <a href="#t2">Второе задание</a><br>
+				 <a href="#t3">Третье задание</a><br>
+				 <a href="#t4">Четвертое задание</a><br>
+				 <a href="#t5">Пятое задание</a><br>
+			</td>
+			<td style="width:20%;text-align:right;">
+				Реклама <br>
+				<img src="cat.png" alt="There should be cat"
+						width="100" height="200">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="text-align:center">
+				<br><br>
+				Низ сайта
+			</td>
+		</tr>
+	</table>
+    
+</body>
+
+</html>
